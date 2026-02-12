@@ -37,4 +37,4 @@ iOS 앱 개발자 | Antigravity 웹 실험 | 수원
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+{% include_relative _includes/giscus.html %}
