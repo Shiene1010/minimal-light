@@ -17,7 +17,7 @@ main:
     links:
       - name: "Live Demo"
         url: "https://shiene1010.github.io/EnglishPatternBlog"
-        image: "./assets/img/EnglishPatternBlog.png"  # 스크린샷
+    image: "./assets/img/englishPatternBlog.png"  # 스크린샷
 
   - title: "BisimilarSpeechRecognizer"
     authors: "Shiene1010"
