@@ -7,7 +7,7 @@ main:
     links:
       - name: "Live Demo"
         url: "https://shiene1010.github.io/minimal-light"
-    image: "./assets/img/teaser_example.png"  # 기존 이미지 재사용
+    image: "./assets/img/minimal-light.png"  # 스크린샷
 
   - title: "English Pattern Blog"
     authors: "Shiene1010"
