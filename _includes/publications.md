@@ -16,7 +16,19 @@
     {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      {% assign title_link = link.pdf | default: link.page %}
+      {% if link.links and link.links.size > 0 %}
+        {% assign title_link = link.links[0].url %}
+      {% endif %}
+      
+      <div class="title">
+        {% if title_link %}
+          <a href="{{ title_link }}" target="_blank">{{ link.title }}</a>
+        {% else %}
+          {{ link.title }}
+        {% endif %}
+      </div>
+      
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
@@ -29,6 +41,11 @@
       {% endif %}
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      {% endif %}
+      {% if link.links %}
+        {% for item in link.links %}
+          <a href="{{ item.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ item.name }}</a>
+        {% endfor %}
       {% endif %}
       {% if link.bibtex %} 
       <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
