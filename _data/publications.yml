@@ -16,11 +16,12 @@ main:
     description: "the way 관계사절 익히기"
     links:
       - name: "Live Demo"
-        url: "https://shiene1010.github.io/EnglishPatternBlog"
+        url: "https://shiene1010.github.io/english-pattern-blog/"
     image: "./assets/img/englishPatternBlog.png"  # 스크린샷
 
-  - title: "BisimilarSpeechRecognizer"
+  - title: "RelativeClauseRecognizer"
     authors: "Shiene1010"
     venue: "iOS 개발"
     year: 2025
     description: "음성인식 앱 개발"
+    image: "./assets/img/RelativeClauseRecognizer.png"
