@@ -17,7 +17,6 @@ iOS 앱 개발자 | Antigravity 웹 실험 | 수원
 ## Skills & Interests
 
 - **Coding:** SwiftUI -  GitHub Pages -  Jekyll -  Antigravity -  Git SSH
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
 
 ## Projects
 - **minimal-light 개인화** (현재 작업: 당신이 보고 있는 페이지!)
@@ -29,11 +28,6 @@ iOS 앱 개발자 | Antigravity 웹 실험 | 수원
 - **[2026.02]** minimal-light → Shiene1010 테마 완성!
 - **[2026.02]** GitHub SSH dual account 설정 완료
 - **[2026.02]** Antigravity 첫 웹 배포 성공
-
-## Contact
-- GitHub: [shiene1010](https://github.com/shiene1010)
-- Email: whatwillmyversebe@naver.com
-
 
 {% include_relative _includes/publications.md %}
 
